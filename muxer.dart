@@ -37,8 +37,6 @@ class Mux {
       print("ROUE NOT FOUND");
       request.response.write("ERR 404 NOT FOUND");
       exec[0](request);
-
-      //request.response.close();
     }
   }
 
